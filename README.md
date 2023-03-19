@@ -42,3 +42,5 @@ OctoPi Server Shutting Down
 ```
 
 This is really convenient to get these notifications on my phone. Make sure to turn on Slack notifications on the devices you want to receive notifications.
+
+I have tested this on Raspberry Pi OS so it should work on Linux. I have not tested this on MacOS nor Windows. 
