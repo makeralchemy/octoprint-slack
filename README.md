@@ -24,7 +24,7 @@ After you make the changes to `config.yaml` and put the `slack-message.sh` in th
 Be careful when editing your `config.yaml` file: my experience is that errors in that file prevent Octoprint from starting and you don't get great error messages to help you understand where to find the problem.
 
 ### Example messages
-My Slack webhoot goes to a channel in my slack account called 'IoT Device'. 
+My Slack webhook goes to a channel in my slack account called 'IoT Device'. 
 Examples of the messages I get are:
 
 ```
