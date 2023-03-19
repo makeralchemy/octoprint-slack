@@ -1,0 +1,34 @@
+events:
+  subscriptions:
+  - command: bash /home/pi/.octoprint/slack-message.sh "OctoPi Server Started"
+    debug: true
+    event: Startup
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "OctoPi Server Shutting Down"
+    debug: true
+    event: Shutdown
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Started"
+    debug: true
+    event: PrintStarted
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Finished"
+    debug: true
+    event: PrintDone
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Failed"
+    debug: true
+    event: PrintFailed
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Cancelled"
+    debug: true
+    event: PrintCancelled
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Paused"
+    debug: true
+    event: PrintPaused
+    type: system
+  - command: bash /home/pi/.octoprint/slack-message.sh "3D Print {name} Resumed"
+    debug: true
+    event: PrintResumed
+    type: system
